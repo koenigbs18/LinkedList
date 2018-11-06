@@ -12,6 +12,7 @@ TODO        : Implement smart pointers to reduce overhead and prevent memory lea
 #include "LinkedList.h"
 
 int main() {
+	
 	LinkedList<double> test(1.0);
 	test.push_back(2.4);
 	test.push_back(24.3);
