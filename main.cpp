@@ -4,7 +4,6 @@ Author      : Brett Koenig
 Email       : koenigbs18@uww.edu
 Date        : 09/13/18
 Description : Example usage of functions contained in "LinkedList.h"
-TODO        : Implement smart pointers to reduce overhead and prevent memory leaks.
 */
 
 #include <iostream>
