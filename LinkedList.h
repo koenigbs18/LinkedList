@@ -12,7 +12,6 @@ TODO        : Implement smart pointers to reduce overhead and prevent memory lea
 #define LINKEDLIST_H
 
 #include <vector>
-#include <memory>
 #include <cstddef>
 
 template <typename DataType>
@@ -27,9 +26,9 @@ private:
 	struct Node {
 
 		Node() : value(nullptr), next(nullptr) {};
-		Node(DataType val) : value(val), next(nullptr) { };
+		Node(DataType val) : next(nullptr) { value = new DataType;  *value = val; };
 
-		std::unique_ptr<DataType> value;
+		DataType* value;
 		Node* next;
 	};
 	Node<DataType>* list;
