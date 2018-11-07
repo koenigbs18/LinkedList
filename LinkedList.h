@@ -5,7 +5,6 @@ Email       : koenigbs18@uww.edu
 Date        : 09/13/18
 Description : A simple linked list with a focus on dynamic memory and useful
 			  accessor functions and operators.
-TODO        : Implement smart pointers to reduce overhead and prevent memory leaks.
 */
 
 #ifndef LINKEDLIST_H
