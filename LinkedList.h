@@ -3,8 +3,7 @@ LinkedList.h
 Author      : Brett Koenig
 Email       : koenigbs18@uww.edu
 Date        : 09/13/18
-Description : A simple linked list with a focus on dynamic memory and useful
-			  accessor functions and operators.
+Description : A simple linked list implementation
 */
 
 #ifndef LINKEDLIST_H
